@@ -6,3 +6,13 @@ newArr.sort();
 return newArr;
 }
 console.log(mergeArrays(arr1,arr2))
+
+//===========================================================
+
+let accordion = document.getElementsByClassName('container');
+
+for (i=0; i<accordion.length; i++) {
+  accordion[i].addEventListener('click', function () {
+    this.classList.toggle('active')
+  })
+}
